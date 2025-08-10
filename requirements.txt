@@ -1,0 +1,22 @@
+# Core API framework
+fastapi
+uvicorn
+
+# Embedding & NLP
+sentence-transformers
+faiss-cpu
+
+# PDF text extraction
+PyMuPDF
+
+# OCR for images in PDFs
+pytesseract
+Pillow
+
+# Table extraction from PDFs
+camelot-py[cv]
+pandas
+tabulate
+
+# Optional: if using notebook for preprocessing
+jupyter
