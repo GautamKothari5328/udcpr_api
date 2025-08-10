@@ -16,7 +16,7 @@ with open(CHUNKS_PATH, 'rb') as f:
     chunks = pickle.load(f)
 
 print("Loading embedding model...")
-embed_model = SentenceTransformer('all-MiniLM-L6-v2')
+embed_model = SentenceTransformer('./all-MiniLM-L6-v2')
 
 # FastAPI app
 app = FastAPI(title="UDCPR Architect Q&A API")
